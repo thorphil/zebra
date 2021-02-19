@@ -25,11 +25,11 @@ All software packages used in the process are free and open-source.
 - **Python(3)**:
     https://www.python.org/
     Used for image processing, the following python libraries are also needed can be installed via pip:
-        - PIL *pip install Pillow*
-        - Scikit-image *pip install scikit-image*
-        - Numpy *pip install numpy*
-        - Json (Built-in)
-        - Base64 (Built-in)
+ - **PIL** *pip install Pillow*
+ - **Scikit-image** *pip install scikit-image*
+ - **Numpy** *pip install numpy*
+ - **Json** (Built-in)
+ - **Base64** (Built-in)
 
 ## Workflow:
 
