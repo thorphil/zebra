@@ -3,26 +3,26 @@
 Creation of Identity documents in Zebra species presents a significant challenge to the veterinary surgeon involved in zoological work. This is due to the requirement for a 'silhouette', a sketch of markings that acts as in addition to the required implanted microchip as a form of individual identification.  The markings in zebra species contain a high density of markings (white regions) that must be annotated on the silhouette.  This results in a time consuming process of recording and transferring of markings onto a standardised outline, where accuracy and reliability of the resulting image are difficult to ensure.
 
 This toolchain aims to aid in the creation of documents conforming to European equid passport regulations in Zebra species. The process consists of three main steps:
-- Creation of a mapping between all points on the surface of a view of a provided view of an animal and the standard silhouette outline, while preserving anatomic location and recognisability of the markings.
+- Creation of a mapping between all points on the surface of a provided view of an animal and the standard silhouette outline, while preserving anatomic location and recognisability of the markings.
 - Extraction of markings and conversion into vector form to allow colouring and filling of the markings.
 - Creation of a correctly annotated silhouete in a passport document.
 
 All software packages used in the process are free and open-source.
 
 ## Requirements:
-- Labelme:
+- **Labelme**:
     https://github.com/wkentaro/labelme
     Used to annotate an image to separate only the animal and also to annotate corresponding points between the animal and the silhouette image.
-- ImageJ:
+- **ImageJ**:
     https://imagej.net/Fiji
     Perform image warping from animal to silhouette. The BUnwarpJ plugin(included with Fiji) is used to perform a B-spline image deformation.
-- Potrace:
+- **Potrace**:
     http://potrace.sourceforge.net/
     Used to vectorise the binary image of the animals markings.
-- Inkscape:
+- **Inkscape**:
     https://inkscape.org
     Used to prepare the silhouette images and finally to clip the resulting vector polygons into the original silhouette and reincorporate into the passport document.
-- Python(3):
+- **Python(3)**:
     https://www.python.org/
     Used for image processing, the following python libraries are also needed can be installed via pip:
         - PIL *pip install Pillow*
