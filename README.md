@@ -42,6 +42,7 @@ Take animal images showing markings corresponding to the required views of the p
 - Neck - ventral
 - Head - rostral view
 - Muzzle
+
 Images should be taken from orientations that as closely match the standard views as possible.  Good, consistent lighting conditions producing relatively homogenous illumination of all parts of the visible anatomy will ensure the best results.
 
 ### Segment and annotate
